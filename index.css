@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Outfit";
+    color: hsl(220, 15%, 55%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+.qr-header{
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.qr-box{
+    width: 20rem;
+    height: auto;
+    padding:20px;
+    border-radius: 20px;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code{
+    width: inherit;
+    height: auto;
+    border-radius: 10px;
+}
+
